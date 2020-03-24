@@ -1,0 +1,11 @@
+Notification Service:
+- Ex: 	Problem: need to send email due to something that has 
+	happened in your system. 
+- SNS	Fully managed pub/sub messaging and mobile 
+	communications service. 
+	Coordinates delivery of messages. 
+- What is pub/sub messaging?
+- Step1	Create a topic. 
+- Step2	Set security of your topic.
+- Step3	Create a subscription to a given email. 
+

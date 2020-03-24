@@ -67,48 +67,6 @@ Elastick Block Store
         - Tags:  you can use tags to group and vizualize billing by type. 
 
 
-    Amazon S3 - Simple Storage Service
-        - Provides a simple api to store data. 
-        - Not saved in any one server. 
-        - Can be almost any data file. Can be as large as terrabytes in size. 
-        - Low latency access.
-        - User defines security measures, access controls, etc. 
-        - When saving an object, you need to create a key that is like a file path. 
-        - Only be billed for what you use. 
-        - Can access via the managemet console, CLI or SKD. 
-        - You can also use a URL.  Need bucket name, region end point, and object key. 
-        - Snowball?
-    
-    Global Infrastructure
-        - Regions:  geographic areas that host 2 or more availability zones. 
-                    Objective should be to optomize latency, cost and compliance. 
-                    regions are completely separate entities.  data is not replicated
-                    between regions. 
-        - availability zones: collection of data centers in a specific region. they are 
-                    physically isolated, but network connected.  they have their own 
-                    power and network connectivity. 
-                    This means that they are protected from failures in other zones. 
-        - edge locations:  amazon cloud front.  used to deliver content to your customers. 
-                    customers have access to quicker content.  
-
-    Amazon Virtual Private Cloud (VPC)
-        - pay as you go on demand compute as well as compute resources. 
-        - VPC is the network service.  it allows you to create a private network within 
-            the aws cloud.  it is easier to set up via amazon than a local solution. 
-            It is an aws foundational services and integrates with the other services. 
-            Ex: an EC2 or database instances get deployed into your VPC.  
-        - Amazon VPC's live within regions and you can have multiple VPC's by region. 
-            Subnets are smaller sub control areas within the vpc. 
-        - Subnet: sounds like you need to assign ip addresses per subnet. You define which              Availability zone it exists. 
-    
-    Security Groups
-        - Act as a built-in firewall. 
-        - You have full control over accessibility. 
-        - Filter traffic to your instances. 
-        - Ex:  database tier that can only accept requests from the applicaton tier, 
-            same with a web instance. 
-        - Good security groups necessary for security compliance. 
-        - 
 
 '''
 

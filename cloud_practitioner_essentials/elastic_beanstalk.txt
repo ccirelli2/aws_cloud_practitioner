@@ -1,0 +1,19 @@
+Elastic Beanstalk:
+- How can I quickly get my application into the cloud? 
+- How can I get the entire environment ready?
+- Platform as a service: platform is created so that you can put your
+	code over the system. 
+- Quick deployment of your applications. 
+- Reduce management complexity. 
+- Also supports a large range of platforms. Go, Java, Python, Ruby, Node.js, 
+	etc. 
+- The only you need you have is to create your code. 
+- Steps to deploy and update are based only on the creation of your 
+	application. 
+- Demonstration: 
+	- You don't even need an application. You can select
+	an example one to play around with beanstalk. 
+	- 
+
+
+

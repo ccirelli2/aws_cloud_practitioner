@@ -1,0 +1,17 @@
+AWS Lambda
+	- Is a compute service lets you run code without managing servers. 
+	- Only pay when code is running. Runs on highly available compute infrastructure. 
+	- Nojs, cshapr, python, java. 
+	- How can you use?  Event driven coding, ex updating database, api's, etc. 
+	- Configure lambda environment, upload code and run. 
+	- There is a monitoring page to view activity of your lambda function. 
+	- You'll also get a notification when it runs. 
+	- Ex's: event driven logging, api's, database backups, resize images, IoT backend.  
+	- Amazon Kinesis (look up). 
+	- Can process 1bn events per month. 
+	- Combine micro server services + lambda to run web pages and api's. 
+	- 
+
+
+
+
